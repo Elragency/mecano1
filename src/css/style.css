@@ -164,7 +164,7 @@
     height: 3rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1768px) {
     #header-carousel .carousel-item {
         position: relative;
         min-height: 450px;
@@ -201,6 +201,18 @@
     background-size: cover;
 }
 
+.carou-1 {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-bg-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carou-2 {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-bg-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*** Service ***/
 .service .nav .nav-link {
